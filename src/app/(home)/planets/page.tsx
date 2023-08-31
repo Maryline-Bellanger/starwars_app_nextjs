@@ -27,11 +27,15 @@ export default function Planets() {
             <div className="flex flex-wrap my-6 justify-center">
                 {planets && planets.results.map((planet) => (
                     <Link href={`/planets/${getUrlId(planet.url)}`} key={`${getUrlId(planet.url)}`}>
-                        <Card 
-                            id={planet.name} 
-                            name={planet.name} 
-                            image={`${baseURLImage}planets/${getUrlId(planet.url)}.jpg`}
-                            />
+                        {planet.name !== "unknown"
+                        ? 
+                            <Card 
+                                id={planet.name} 
+                                name={planet.name} 
+                                image={`${baseURLImage}planets/${getUrlId(planet.url)}.jpg`}
+                                /> 
+                        : ""}
+                        
                     </Link>
                 ) )}
             </div>
