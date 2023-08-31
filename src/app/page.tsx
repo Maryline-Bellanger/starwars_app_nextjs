@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-yellow-400 text-3xl p-5">A long time ago in a galaxy far, far away...</h1>
         <div className="py-5">
             <button className="btn bg-neutral-800 border-neutral-500 opacity-80 hover:bg-neutral-900">
-                <Link href={"/"} className="text-xl text-yellow-200">
+                <Link href={"/characters"} className="text-xl text-yellow-200">
                     Enter
                 </Link>
             </button>
