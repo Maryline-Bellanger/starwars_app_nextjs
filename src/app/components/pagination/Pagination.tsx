@@ -1,5 +1,5 @@
-import PreviousIcon from "../../../public/images/previous.png";
-import NextIcon from "../../../public/images/next.png";
+import PreviousIcon from "../../../../public/images/previous.png";
+import NextIcon from "../../../../public/images/next.png";
 import Image from "next/image";
 
 type paginationProps = {
