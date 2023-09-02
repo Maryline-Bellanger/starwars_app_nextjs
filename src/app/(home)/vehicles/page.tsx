@@ -18,7 +18,7 @@ export default function Vehicles() {
     if (error) return 'An error has occurred: ' + error
     
     return (
-        <div>
+        <div className="my-24">
             <Pagination
                 page={page}
                 totalPage={totalPage}

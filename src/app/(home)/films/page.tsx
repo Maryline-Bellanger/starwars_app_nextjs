@@ -14,7 +14,7 @@ export default function Films() {
     if (error) return 'An error has occurred: ' + error
 
     return (
-        <div>
+        <div className="my-24">
             <div className="flex flex-wrap my-6 justify-center">
                 {films && films.results.map((film) => (
                     <Link href={`/films/${getUrlId(film.url)}`} key={`${getUrlId(film.url)}`}>

@@ -19,7 +19,7 @@ export default function Navbar() {
         setActiveIndex(newIndex);
     }, [pathname])
   return (
-    <div className="navbar bg-[#0a0a0a]">
+    <div className="navbar bg-[#0a0a0a] fixed top-0 left-0 z-20 ">
         <div className="navbar-start">
             <div className="dropdown">
                 <button tabIndex={0} className="btn btn-ghost lg:hidden">

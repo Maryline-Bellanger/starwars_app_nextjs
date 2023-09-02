@@ -16,7 +16,7 @@ export default function Vehicle({params}: {params: {id: string}}) {
     if (error) return 'An error has occurred: ' + error
     
     return (
-        <div className="m-3">
+        <div className="mx-6 my-24">
             {vehicle && 
                 <>
                     <div className="flex flex-col lg:flex-row">
