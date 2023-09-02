@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <div className="navbar bg-[#0a0a0a] fixed top-0 left-0 z-20 ">
         <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown" tabIndex={0}>
                 <button tabIndex={0} className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </button>
