@@ -11,7 +11,6 @@ export default function useVehicle(id: string) {
             axios
                 .get(`${baseURL}vehicles/${id}`)
                 .then(res => res.data),
-            keepPreviousData: true
         })
 
     return {

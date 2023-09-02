@@ -1,5 +1,5 @@
 export function getUrlId(url: string) {
-    const splitedUrl = url.split('/');
-    const id = splitedUrl[splitedUrl.length - 2];
+    const splitedUrl = url && url.split('/');
+    const id = splitedUrl[5];
     return id;
   }
