@@ -20,7 +20,7 @@ export default function Vehicle({params}: {params: {id: string}}) {
             {vehicle && 
                 <>
                     <div className="flex flex-col lg:flex-row">
-                        <div className="p-2 basis-1/4 flex items-center justify-center">
+                        <div className="p-3 basis-1/4 flex items-center justify-center">
                             <Image
                                 src={`${baseURLImage}vehicles/${getUrlId(vehicle.url)}.jpg`}
                                 alt=""
@@ -28,7 +28,7 @@ export default function Vehicle({params}: {params: {id: string}}) {
                                 height={200}
                                 className="max-w-sm rounded-lg shadows-2x1" />
                         </div>
-                        <div className="p-2 basis-3/4">
+                        <div className="p-3 basis-3/4">
                             <CardVehicleDetail
                             name={vehicle.name}
                             model={vehicle.model}
@@ -45,10 +45,10 @@ export default function Vehicle({params}: {params: {id: string}}) {
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row">
-                        <div className="p-2 basis-1/2">
+                        <div className="p-3 basis-1/2">
                             <CardCharacters characters={vehicle.pilots && vehicle.pilots.map((character) => `${getUrlId(character)}`)} title="Pilots" />
                         </div>
-                        <div className="p-2 basis-1/2">
+                        <div className="p-3 basis-1/2">
                             <CardFilms films={vehicle.films && vehicle.films.map((film) => `${getUrlId(film)}`)} />
                         </div>
                     </div>

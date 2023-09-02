@@ -17,7 +17,7 @@ export default function CardSpecies({species}: cardSpecieType) {
                     <div className="grid grid-cols-1 lg:grid-cols-2">
                         {speciesName.length > 0 ? speciesName.map((specieList, index) => 
                         <div key={index} className="flex flex-row items-center h-7 text-sm">
-                            <Image src={SpeciesIcon} alt="Species" width={14} />
+                            <Image src={SpeciesIcon} alt="Species" width={16} />
                             <span className="px-2">{specieList}</span>
                         </div>) : <span>n/a</span> }
                     </div>

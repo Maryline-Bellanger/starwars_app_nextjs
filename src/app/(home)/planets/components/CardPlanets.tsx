@@ -17,7 +17,7 @@ export default function CardPlanets({planets}: cardPlanetType) {
                     <div className="grid grid-cols-1 lg:grid-cols-2">
                         {planetsName.length > 0 ? planetsName.map((planetList, index) => 
                         <div key={index} className="flex flex-row items-center h-7 text-sm">
-                            <Image src={PlanetsIcon} alt="Planets" width={14} />
+                            <Image src={PlanetsIcon} alt="Planets" width={15} />
                             <span className="px-2">{planetList}</span>
                         </div>) : <span>n/a</span> }
                     </div>

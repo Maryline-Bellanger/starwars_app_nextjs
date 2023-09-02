@@ -18,7 +18,7 @@ export default function CardCharacters({characters, title}: cardCharacterType) {
                     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
                         {charactersName.length > 0 ? charactersName.map((characterList, index) => 
                         <div key={index} className="flex flex-row items-center h-7 text-sm">
-                            <Image src={CharactersIcon} alt="Characters" width={14} />
+                            <Image src={CharactersIcon} alt="Characters" width={16} />
                             <span className="px-2">{characterList}</span>
                         </div>) : <span>n/a</span> }
                     </div>
