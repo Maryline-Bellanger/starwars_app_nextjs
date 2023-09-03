@@ -36,7 +36,7 @@ export default function CardSpecieDetail({
                             <span className={TEXT_WHITE}> {average_height !== "unknown" ? `${average_height} cm` : "n/a"}</span>
                         </p>
                         <p className={TEXT_TITLE}>Average lifespan:
-                            <span className={TEXT_WHITE}> {average_lifespan !== "unknown" ? `${average_lifespan}` : "n/a"} years</span>
+                            <span className={TEXT_WHITE}> {average_lifespan !== "unknown" ? `${average_lifespan} years` : "n/a"}</span>
                         </p>
                         <p className={TEXT_TITLE}>Classification:
                             <span className={TEXT_WHITE}> {classification !== "unknown" ? `${classification}` : "n/a"}</span>

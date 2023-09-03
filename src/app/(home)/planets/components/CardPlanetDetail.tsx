@@ -49,7 +49,7 @@ export default function CardPlanetDetail({
                             <span className={TEXT_WHITE}> {terrain !== "unknwon" ? `${terrain}` : "n/a"}</span>
                         </p>
                         <p className={TEXT_TITLE}>Surface water:
-                            <span className={TEXT_WHITE}> {surface_water !== "unknwon" ? `${surface_water}` : "n/a"}</span>
+                            <span className={TEXT_WHITE}> {surface_water !== "unknwon" ? `${surface_water}%` : "n/a"}</span>
                         </p>
                         <p className={TEXT_TITLE}>Population:
                             <span className={TEXT_WHITE}> {population !== "unknwon" ? `${population}` : "n/a"}</span>
