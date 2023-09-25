@@ -47,7 +47,7 @@ export default function Navbar() {
             </div>
         </div>
         <div className="navbar-end hidden lg:flex">
-            <div className="menu menu-horizontal px-1">
+            <div className="flex flex-row px-1">
                 {menuList.map((menu, index) => (
                     <div key={index}>
                         <NavbarItem
